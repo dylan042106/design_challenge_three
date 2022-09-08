@@ -104,11 +104,11 @@ input[type="submit"] {
 */
 
 body {
-  background: auto;
+  background: #1c2022;
 }
 
 .container {
-  border-left: auto;
+  border-left-color: #ff01ff;
 }
 
 p {
@@ -117,15 +117,17 @@ p {
 
 input[type="text"],
 textarea {
-  background: auto;
-  border-bottom: auto;
+  background: #2b3337;
+  border-bottom-color: #ff01ff;
+  color: white;
 }
 
 input[type="text"]:focus,
 textarea:focus {
-  border-bottom: auto;
+  border-bottom-color: #ff01ff;
+  color: white;
 }
 
 input[type="submit"] {
-  background: auto;
+  background: #ff01ff;
 }
